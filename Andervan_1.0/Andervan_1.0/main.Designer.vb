@@ -33,6 +33,7 @@ Partial Class main
         Me.ProductoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClienteToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TiendaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -55,29 +56,30 @@ Partial Class main
         'ProductoToolStripMenuItem
         '
         Me.ProductoToolStripMenuItem.Name = "ProductoToolStripMenuItem"
-        Me.ProductoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ProductoToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
         Me.ProductoToolStripMenuItem.Text = "Producto"
         '
         'ClienteToolStripMenuItem
         '
         Me.ClienteToolStripMenuItem.Name = "ClienteToolStripMenuItem"
-        Me.ClienteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ClienteToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
         Me.ClienteToolStripMenuItem.Text = "Cliente"
         '
         'DetalleToolStripMenuItem
         '
         Me.DetalleToolStripMenuItem.Name = "DetalleToolStripMenuItem"
-        Me.DetalleToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.DetalleToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
         Me.DetalleToolStripMenuItem.Text = "Detalle"
         '
         'FacturaToolStripMenuItem
         '
         Me.FacturaToolStripMenuItem.Name = "FacturaToolStripMenuItem"
-        Me.FacturaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FacturaToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
         Me.FacturaToolStripMenuItem.Text = "Factura"
         '
         'ProcesoToolStripMenuItem
         '
+        Me.ProcesoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TiendaToolStripMenuItem})
         Me.ProcesoToolStripMenuItem.Name = "ProcesoToolStripMenuItem"
         Me.ProcesoToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
         Me.ProcesoToolStripMenuItem.Text = "Proceso"
@@ -92,13 +94,13 @@ Partial Class main
         'ProductoToolStripMenuItem1
         '
         Me.ProductoToolStripMenuItem1.Name = "ProductoToolStripMenuItem1"
-        Me.ProductoToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.ProductoToolStripMenuItem1.Size = New System.Drawing.Size(123, 22)
         Me.ProductoToolStripMenuItem1.Text = "Producto"
         '
         'ClienteToolStripMenuItem1
         '
         Me.ClienteToolStripMenuItem1.Name = "ClienteToolStripMenuItem1"
-        Me.ClienteToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.ClienteToolStripMenuItem1.Size = New System.Drawing.Size(123, 22)
         Me.ClienteToolStripMenuItem1.Text = "Cliente"
         '
         'SalirToolStripMenuItem
@@ -107,6 +109,12 @@ Partial Class main
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
         Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(41, 20)
         Me.SalirToolStripMenuItem.Text = "Salir"
+        '
+        'TiendaToolStripMenuItem
+        '
+        Me.TiendaToolStripMenuItem.Name = "TiendaToolStripMenuItem"
+        Me.TiendaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.TiendaToolStripMenuItem.Text = "Tienda"
         '
         'main
         '
@@ -135,4 +143,5 @@ Partial Class main
     Friend WithEvents FacturaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ProductoToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ClienteToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents TiendaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class
